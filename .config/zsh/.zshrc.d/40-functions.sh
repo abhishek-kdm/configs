@@ -1,6 +1,6 @@
 new() {
   [ -z "$1" ] && args=() || args=(-s $1)
-  tmux new-session "${args[@]}" -n "shell" \; new-window -d -n "code"
+  tmux -2 new-session "${args[@]}" -n "shell" \; new-window -d -n "code"
 }
 
 open() {

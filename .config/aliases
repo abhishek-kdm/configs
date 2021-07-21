@@ -3,6 +3,7 @@
 alias ls="ls -h --color=auto"
 alias ll="ls -l"
 alias la="ls -Al"
+alias grep="grep --color=auto"
 alias rm="rm -riv"
 alias server="python3 -m http.server"
 alias mx="tmux"
